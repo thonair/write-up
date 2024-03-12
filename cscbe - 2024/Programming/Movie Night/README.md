@@ -10,9 +10,9 @@
 > [`Movie.gif`](Movie.gif)
 
 ## Write-up
-Comme pour chaque challenge dans le cadre d'un Capture The Flag, le but étant de retrouver un drapeau (flag). Dans notre cas, le drapeau dans avoir le format suivant : `CSC{XXXXXXX}`
+Comme pour chaque challenge dans le cadre d'un Capture The Flag, le but étant de retrouver un drapeau (flag). Dans notre cas, le drapeau est sous le format suivant : `CSC{XXXXXXX}`
 
-Pour commencer, j'ai visionné le GIF. Je me suis rendi compte alors que le défi consiste en un GIF contenant de nombreux QR codes qui défilent. L'objectif est de séparer les QR codes et de les scanner.
+Pour commencer, j'ai visionné le GIF. Je me suis rendu compte alors que le défi consiste en un GIF contenant de nombreux QR codes qui défilent. L'objectif est de séparer les QR codes et de les scanner.
 
 ### Première réflection
 Pour séparer les QR codes, j'ai d'abord utiliser un outil en ligne de commande `convert` fourni par ImageMagick sous Kali Linux. Voici les étapes à suivre :
@@ -21,7 +21,7 @@ Pour séparer les QR codes, j'ai d'abord utiliser un outil en ligne de commande 
 sudo apt-get update
 sudo apt-get install imagemagick
 ```
-2. Une fois ImageMagick installé, j'ai utilisé la commande convert pour diviser le GIF en images individuelles. Voici un exemple de commande :
+2. Une fois ImageMagick installé, j'ai utilisé la commande `convert` pour diviser le GIF en images individuelles. Voici un exemple de commande :
 ```
 convert le_gif.gif /chemin/vers/repertoire_de_sortie/nom_de_sortie_%d.png
 ```
