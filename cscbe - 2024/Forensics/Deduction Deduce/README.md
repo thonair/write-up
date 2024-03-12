@@ -33,7 +33,7 @@ Le fichier XML semble contenir la configuration d'une tâche planifiée. Il comp
 En mettant toutes ces informations ensemble, il est raisonnable de supposer que la tâche planifiée la plus susceptible d'être responsable de ces incidents est celle qui modifie les couleurs de l'écran de connexion et de la console PowerShell pour correspondre au schéma inhabituel décrit par la victime. Cette tâche planifiée pourrait être configurée pour s'exécuter chaque semaine le jour où la victime rencontre le problème (mardi ou jeudi). Ces incidents ont commencé le 9 novembre 2023, et se reproduisent chaque semaine depuis lors.
 
 #### Résultat :
-La première information qui va m'interreser est la date de commencement de ces incidents : le `9 novembre 2023`. Je l'ai donc transformé au format XML ce qui donne `2023-11-9T`. En faisant une recherche (CTRL + F) dans le fichier de tâches ScheduledTasks.xml, je tombe sur cette tâche : 
+La première information qui va m'interreser est la date de commencement de ces incidents : le `9 novembre 2023`. Je l'ai donc transformé au format XML ce qui donne `2023-11-9T`. En faisant une recherche (CTRL + F) dans le fichier de tâches [`ScheduledTasks.xml`](cscbe - 2024/Forensics/Deduction Deduce/deduction_deduce/ScheduledTasks.xml), je tombe sur cette tâche : 
 ```xml
 <Task version="1.2"
     xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
