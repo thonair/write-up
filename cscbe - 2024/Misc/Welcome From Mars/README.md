@@ -11,7 +11,7 @@
 > [`MARS.webp`](MARS.webp)
 
 ## Write-up
-Comme pour chaque challenge dans le cadre d'un Capture The Flag, le but étant de retrouver un drapeau (flag). Dans notre cas, le drapeau dans avoir le format suivant : `csc{XXXXXXX}`
+Comme pour chaque challenge dans le cadre d'un Capture The Flag, le but étant de retrouver un drapeau (flag). Dans notre cas, le drapeau est sous le format suivant : `csc{XXXXXXX}`
 
 Pour commencer, j'ai ouvert le fichier du challenge. Ce fichier est une image d'un astronaute tenant une pancarte sur Mars.
 
