@@ -17,7 +17,7 @@ Comme pour chaque challenge dans le cadre d'un Capture The Flag, le but étant d
 ### Solution
 Le dossier du challenge contient 4 fichiers nous permettant de récupérer des indices sur le piratage. Après ouverture du fichier XML, on se rend compte qu'il faut retrouver la tâche lié au piratage pour récupérer le drapeau.
 
-#### Analyse du fichier Interview.pdf :
+#### Analyse du fichier [`Interview.pdf`](deduction_deduce/Interview.pdf):
 Ce fichier semble être une transcription d'une interview entre l'officier Bar Brady et Elizabeth Dunquin. L'interview concerne une plainte liée à un piratage potentiel d'un ordinateur portable d'entreprise. Dans l'interview, Dunquin décrit des comportements inhabituels sur l'ordinateur portable partagé, notamment des couleurs étranges à l'écran de connexion. Elle mentionne également des mécanismes de persistance et des alertes d'antivirus concernant des backdoors et des virus. Elle précise que les incidents ont commencé le 9 novembre 2023 lors d'une réunion avec un client. Elle partage également que d'autres utilisateurs, notamment Esther et Elisa, ont également remarqué ces comportements suspects. Enfin, elle indique que chaque utilisateur a son propre compte sur l'ordinateur portable partagé.
 
 #### Analyse du fichier [`Microsoft.PowerShell_profile.ps1`](deduction_deduce/Microsoft.PowerShell_profile.ps1):
