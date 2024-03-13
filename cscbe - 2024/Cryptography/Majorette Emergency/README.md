@@ -25,7 +25,6 @@ En regardant de plus près le fichier [`secret_diary.txt`](secret_diary.txt) :
 Cette chaîne de caractères correspond à de l'hexadécimal. Le déchiffrement via [CyberChef](https://gchq.github.io/CyberChef) ne donne rien ce qui signifie que cela peut être un hash. En passant le hash dans [hashes.com](https://hashes.com/en/decrypt/hash) on obtient le résultat suivant :
 ```
 98b6a84b03f5aca7e23a13c627d62037:Use_A_Key
-
 ```
 
 Il nous reste plus qu'à dézipper le dossier avec le mot de passe `Use_A_Key`.
